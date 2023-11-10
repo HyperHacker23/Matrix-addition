@@ -1,4 +1,4 @@
-//this program sums 2 matrix of any order
+//this program sums 2 matrices of any order
 #include<iostream>
 using namespace std;
 int main()
@@ -14,7 +14,7 @@ int main()
     cin>>row2;
     cout<<"Enter the number of columns for matrix 2: ";
     cin>>col2;
-//checking if the matrices are of same order
+//checking if the matrices are of the same order
     if(row1==row2 && col1==col2)
     {
 //declaring the arrays
@@ -49,7 +49,7 @@ int main()
                 c[i][j]=0;
             }
         }
-//adding the 2 matrices and storing it in the sum matrix
+//adding the 2 matrices and storing them in the sum matrix
         for(i=0;i<row1;i++)
         {
             for(j=0;j<col2;j++)
